@@ -29,8 +29,8 @@ class Columm {
     this.id = this.base.getId();
     this.parseFlags();
     this.parseSpecificAttributes();
+    this.parseType();
     return this;
-    // console.log(this.base.object);
   }
 
   /**
